@@ -1,0 +1,13 @@
+body, ul, ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}

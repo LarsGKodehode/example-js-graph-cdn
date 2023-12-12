@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="favicon.svg">
+
+  <link rel="stylesheet" href="styles/overrides.css">
+  <link rel="stylesheet" href="styles/typography.css">
+  <link rel="stylesheet" href="styles/palettes.css">
+  <link rel="stylesheet" href="styles/spacing.css">
+  <link rel="stylesheet" href="styles/utilities.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+  <script defer type="module" src="scripts/chart.js"></script>
+  <script defer type="module" src="scripts/main.js"></script>
+
+  <title>Graph.js via CDN</title>
+</head>
+
+<body class="flex flex-col min-h-screen bg-primary">
+  <header class="flex justify-between bg-secondary text-white px-md py-sm">
+    <a href="/"><img src="favicon.svg" alt="Logo" width="40px" height="40px"></a>
+  </header>
+
+  <main class="grow">
+    <h1 class="text-center">Graph.js via CDN</h1>
+    <section>
+      <h2>Example A</h2>
+
+      <canvas id="chart-a"></canvas>
+    </section>
+
+    <section>
+      <h2>Example B</h2>
+
+      <canvas id="chart-b"></canvas>
+    </section>
+  </main>
+
+  <footer class="bg-secondary text-white py-lg">
+    <p class="text-center">Kodehodet</p>
+  </footer>
+</body>
+
+</html>
